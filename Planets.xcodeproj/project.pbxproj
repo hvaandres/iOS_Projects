@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0501EB2E27041F6E00D117FF /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501EB2D27041F6E00D117FF /* StartButtonView.swift */; };
+		0501EB342704241B00D117FF /* OnboadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501EB332704241B00D117FF /* OnboadingView.swift */; };
+		0504A436270418A20066EF6A /* PlanetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504A435270418A20066EF6A /* PlanetCardView.swift */; };
 		0581F63226F9837F003C3FDB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F63126F9837F003C3FDB /* Tests_iOS.swift */; };
 		0581F63D26F98380003C3FDB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F63C26F9837F003C3FDB /* Tests_macOS.swift */; };
 		0581F63F26F98380003C3FDB /* PlanetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F61626F9837F003C3FDB /* PlanetsApp.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0501EB2D27041F6E00D117FF /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		0501EB332704241B00D117FF /* OnboadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingView.swift; sourceTree = "<group>"; };
+		0504A435270418A20066EF6A /* PlanetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardView.swift; sourceTree = "<group>"; };
 		0581F61626F9837F003C3FDB /* PlanetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsApp.swift; sourceTree = "<group>"; };
 		0581F61726F9837F003C3FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0581F61826F9837F003C3FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0504A42F270418140066EF6A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0581F61626F9837F003C3FDB /* PlanetsApp.swift */,
+				0581F61726F9837F003C3FDB /* ContentView.swift */,
+				0501EB332704241B00D117FF /* OnboadingView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0504A434270418630066EF6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0504A435270418A20066EF6A /* PlanetCardView.swift */,
+				0501EB2D27041F6E00D117FF /* StartButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0581F61026F9837F003C3FDB = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +123,8 @@
 		0581F61526F9837F003C3FDB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				0581F61626F9837F003C3FDB /* PlanetsApp.swift */,
-				0581F61726F9837F003C3FDB /* ContentView.swift */,
+				0504A434270418630066EF6A /* View */,
+				0504A42F270418140066EF6A /* App */,
 				0581F61826F9837F003C3FDB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0501EB342704241B00D117FF /* OnboadingView.swift in Sources */,
 				0581F64126F98380003C3FDB /* ContentView.swift in Sources */,
+				0501EB2E27041F6E00D117FF /* StartButtonView.swift in Sources */,
+				0504A436270418A20066EF6A /* PlanetCardView.swift in Sources */,
 				0581F63F26F98380003C3FDB /* PlanetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
