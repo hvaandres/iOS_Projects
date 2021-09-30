@@ -10,6 +10,8 @@ import SwiftUI
 struct PlanetCardView: View {
     // Properties
     
+    var planet: Planet
+    
     @State private var isAnimating: Bool = false
     
     // Body
@@ -17,12 +19,12 @@ struct PlanetCardView: View {
         ZStack {
             VStack(spacing: 20) {
                 // Planet: Image
-                Image("earth")
+                Image(planet.image)
                     .resizable()
                     .scaledToFit()
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 0, x: 6, y: 8)
                 // Planet: Title
-                Text("Earth")
+                Text(planet.title)
                     .foregroundColor(Color.white)
                     .font(.largeTitle)
                     .fontWeight(.heavy)
@@ -30,7 +32,7 @@ struct PlanetCardView: View {
                     .scaleEffect(isAnimating ? 1.0 : 0.6)
                 // Planet: HeadLine
                 
-                Text("Earth is our home planet. Scientists believe Earth and its moon formed around the same time as the rest of the solar system.")
+                Text(planet.headline)
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 16)
@@ -48,7 +50,7 @@ struct PlanetCardView: View {
             }
         }
         .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealWidth: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, minHeight: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, idealHeight: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-        .background(LinearGradient(gradient: Gradient(colors: [Color("ColorEarth"), Color("ColorVenus")]), startPoint: .top, endPoint: .bottom))
+        .background(LinearGradient(gradient: Gradient(colors: planet.gradientColor), startPoint: .top, endPoint: .bottom))
         .cornerRadius(20)
         .padding(.horizontal, 20)
     }
@@ -59,7 +61,7 @@ struct PlanetCardView: View {
 struct PlanetCardView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            PlanetCardView()
+            PlanetCardView(planet: planetsData[2])
                 .previewDevice("iPhone 12 Pro Max")
                 .previewLayout(.fixed(width: 320, height: 640))
         }

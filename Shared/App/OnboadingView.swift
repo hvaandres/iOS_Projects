@@ -10,11 +10,14 @@ import SwiftUI
 struct OnboadingView: View {
     // Porperties
     
+    var planets: [Planet] = planetsData
+    
     // Body
     var body: some View {
         TabView{
-            ForEach(0..<5){ item in
-        PlanetCardView()
+            ForEach(planets[0...5]){ item in
+                PlanetCardView(planet: item)
+                
         } // Loop
     } // Tab
         
@@ -27,6 +30,6 @@ struct OnboadingView: View {
 
 struct OnboadingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboadingView()
+        OnboadingView(planets: planetsData)
     }
 }
