@@ -18,6 +18,8 @@
 		0581F64226F98380003C3FDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F61726F9837F003C3FDB /* ContentView.swift */; };
 		0581F64326F98380003C3FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0581F61826F9837F003C3FDB /* Assets.xcassets */; };
 		0581F64426F98380003C3FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0581F61826F9837F003C3FDB /* Assets.xcassets */; };
+		058AB5C12705EE29003B682D /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB5C02705EE29003B682D /* PlanetModel.swift */; };
+		058AB5C82705EF10003B682D /* PlanetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB5C72705EF10003B682D /* PlanetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		0581F63826F9837F003C3FDB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0581F63C26F9837F003C3FDB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0581F63E26F98380003C3FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058AB5C02705EE29003B682D /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		058AB5C72705EF10003B682D /* PlanetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 		0581F61526F9837F003C3FDB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				058AB5C62705EEFA003B682D /* Data */,
+				058AB5BE2705EDF9003B682D /* Model */,
 				0504A434270418630066EF6A /* View */,
 				0504A42F270418140066EF6A /* App */,
 				0581F61826F9837F003C3FDB /* Assets.xcassets */,
@@ -174,6 +180,22 @@
 				0581F63E26F98380003C3FDB /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		058AB5BE2705EDF9003B682D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				058AB5C02705EE29003B682D /* PlanetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		058AB5C62705EEFA003B682D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				058AB5C72705EF10003B682D /* PlanetData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,8 +358,10 @@
 				0501EB342704241B00D117FF /* OnboadingView.swift in Sources */,
 				0581F64126F98380003C3FDB /* ContentView.swift in Sources */,
 				0501EB2E27041F6E00D117FF /* StartButtonView.swift in Sources */,
+				058AB5C82705EF10003B682D /* PlanetData.swift in Sources */,
 				0504A436270418A20066EF6A /* PlanetCardView.swift in Sources */,
 				0581F63F26F98380003C3FDB /* PlanetsApp.swift in Sources */,
+				058AB5C12705EE29003B682D /* PlanetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
