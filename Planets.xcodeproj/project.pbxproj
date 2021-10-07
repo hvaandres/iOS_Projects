@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0501EB2E27041F6E00D117FF /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501EB2D27041F6E00D117FF /* StartButtonView.swift */; };
-		0501EB342704241B00D117FF /* OnboadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0501EB332704241B00D117FF /* OnboadingView.swift */; };
 		0504A436270418A20066EF6A /* PlanetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0504A435270418A20066EF6A /* PlanetCardView.swift */; };
+		05426A58270E9C0B00FCBA56 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A57270E9C0B00FCBA56 /* SourceLinkView.swift */; };
+		05426A5A270EA37500FCBA56 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A59270EA37500FCBA56 /* OnboardingView.swift */; };
+		05426A5C270EA58D00FCBA56 /* PlanetInstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A5B270EA58D00FCBA56 /* PlanetInstructionsView.swift */; };
+		05426A5E270EA62D00FCBA56 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A5D270EA62D00FCBA56 /* SettingsRowView.swift */; };
+		05426A62270EAC7700FCBA56 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A61270EAC7700FCBA56 /* SettingsView.swift */; };
+		05426A64270EACB500FCBA56 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05426A63270EACB500FCBA56 /* SettingsLabelView.swift */; };
 		0581F63226F9837F003C3FDB /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F63126F9837F003C3FDB /* Tests_iOS.swift */; };
 		0581F63D26F98380003C3FDB /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F63C26F9837F003C3FDB /* Tests_macOS.swift */; };
 		0581F63F26F98380003C3FDB /* PlanetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0581F61626F9837F003C3FDB /* PlanetsApp.swift */; };
@@ -20,6 +25,9 @@
 		0581F64426F98380003C3FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0581F61826F9837F003C3FDB /* Assets.xcassets */; };
 		058AB5C12705EE29003B682D /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB5C02705EE29003B682D /* PlanetModel.swift */; };
 		058AB5C82705EF10003B682D /* PlanetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AB5C72705EF10003B682D /* PlanetData.swift */; };
+		0597BCD9270D5DE800007CA2 /* PlanetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597BCD8270D5DE800007CA2 /* PlanetRowView.swift */; };
+		05B382C8270E5C4E00103A94 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B382C7270E5C4E00103A94 /* PlanetDetailView.swift */; };
+		05B382CA270E634C00103A94 /* PlanetHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B382C9270E634C00103A94 /* PlanetHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +49,13 @@
 
 /* Begin PBXFileReference section */
 		0501EB2D27041F6E00D117FF /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
-		0501EB332704241B00D117FF /* OnboadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboadingView.swift; sourceTree = "<group>"; };
 		0504A435270418A20066EF6A /* PlanetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCardView.swift; sourceTree = "<group>"; };
+		05426A57270E9C0B00FCBA56 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		05426A59270EA37500FCBA56 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		05426A5B270EA58D00FCBA56 /* PlanetInstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetInstructionsView.swift; sourceTree = "<group>"; };
+		05426A5D270EA62D00FCBA56 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		05426A61270EAC7700FCBA56 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		05426A63270EACB500FCBA56 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		0581F61626F9837F003C3FDB /* PlanetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsApp.swift; sourceTree = "<group>"; };
 		0581F61726F9837F003C3FDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0581F61826F9837F003C3FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +72,9 @@
 		0581F63E26F98380003C3FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058AB5C02705EE29003B682D /* PlanetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
 		058AB5C72705EF10003B682D /* PlanetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetData.swift; sourceTree = "<group>"; };
+		0597BCD8270D5DE800007CA2 /* PlanetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRowView.swift; sourceTree = "<group>"; };
+		05B382C7270E5C4E00103A94 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		05B382C9270E634C00103A94 /* PlanetHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +114,9 @@
 			children = (
 				0581F61626F9837F003C3FDB /* PlanetsApp.swift */,
 				0581F61726F9837F003C3FDB /* ContentView.swift */,
-				0501EB332704241B00D117FF /* OnboadingView.swift */,
+				05B382C7270E5C4E00103A94 /* PlanetDetailView.swift */,
+				05426A59270EA37500FCBA56 /* OnboardingView.swift */,
+				05426A61270EAC7700FCBA56 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -108,6 +126,12 @@
 			children = (
 				0504A435270418A20066EF6A /* PlanetCardView.swift */,
 				0501EB2D27041F6E00D117FF /* StartButtonView.swift */,
+				0597BCD8270D5DE800007CA2 /* PlanetRowView.swift */,
+				05B382C9270E634C00103A94 /* PlanetHeaderView.swift */,
+				05426A57270E9C0B00FCBA56 /* SourceLinkView.swift */,
+				05426A5B270EA58D00FCBA56 /* PlanetInstructionsView.swift */,
+				05426A5D270EA62D00FCBA56 /* SettingsRowView.swift */,
+				05426A63270EACB500FCBA56 /* SettingsLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,7 +302,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					0581F61C26F9837F003C3FDB = {
 						CreatedOnToolsVersion = 12.4;
@@ -355,11 +379,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0501EB342704241B00D117FF /* OnboadingView.swift in Sources */,
+				05B382C8270E5C4E00103A94 /* PlanetDetailView.swift in Sources */,
+				05426A58270E9C0B00FCBA56 /* SourceLinkView.swift in Sources */,
 				0581F64126F98380003C3FDB /* ContentView.swift in Sources */,
+				05426A5C270EA58D00FCBA56 /* PlanetInstructionsView.swift in Sources */,
 				0501EB2E27041F6E00D117FF /* StartButtonView.swift in Sources */,
 				058AB5C82705EF10003B682D /* PlanetData.swift in Sources */,
+				05B382CA270E634C00103A94 /* PlanetHeaderView.swift in Sources */,
+				05426A62270EAC7700FCBA56 /* SettingsView.swift in Sources */,
 				0504A436270418A20066EF6A /* PlanetCardView.swift in Sources */,
+				0597BCD9270D5DE800007CA2 /* PlanetRowView.swift in Sources */,
+				05426A5A270EA37500FCBA56 /* OnboardingView.swift in Sources */,
+				05426A5E270EA62D00FCBA56 /* SettingsRowView.swift in Sources */,
+				05426A64270EACB500FCBA56 /* SettingsLabelView.swift in Sources */,
 				0581F63F26F98380003C3FDB /* PlanetsApp.swift in Sources */,
 				058AB5C12705EE29003B682D /* PlanetModel.swift in Sources */,
 			);
@@ -568,6 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F26L3GH72M;
@@ -592,6 +625,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F26L3GH72M;

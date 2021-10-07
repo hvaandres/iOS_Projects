@@ -1,35 +1,28 @@
-//
-//  OnboadingView.swift
-//  Planets (iOS)
-//
-//  Created by Andres Haro on 9/28/21.
-//
-
 import SwiftUI
 
 struct OnboardingView: View {
-  // PROPERTIES
+  // Properties
   
   var planets: [Planet] = planetsData
   
-  // BODY
+  // Body
   
   var body: some View {
     TabView {
       ForEach(planets[0...5]) { item in
         PlanetCardView(planet: item)
-      } // LOOP
-    } // TAB
+      } //: Loop
+    } //: Tab
     .tabViewStyle(PageTabViewStyle())
     .padding(.vertical, 20)
   }
 }
 
-// PREVIEW
+// Preview
 
 struct OnboardingView_Previews: PreviewProvider {
   static var previews: some View {
     OnboardingView(planets: planetsData)
-      .previewDevice("iPhone 11 Pro")
+      .previewDevice("iPhone 13 Pro")
   }
 }
